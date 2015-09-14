@@ -1,0 +1,217 @@
+html { 
+  background: url("Images/fireflies.gif") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  font-smooth: always;
+  text-rendering: optimizeLegibility;
+
+  color: white;
+
+  font-family: sans-serif Arial;
+}
+
+.sub-content {
+	margin: 50px auto 100px auto;
+	width: 100%;
+	max-width: 780px;
+	text-align: center;
+	display: none;
+	padding: 10px;
+    padding-bottom: 30px;
+	background-color: rgba(255, 255, 255, 0.42);
+	color: black;
+}
+
+.sub-content a {
+	color: black;
+}
+
+.content {
+	height: 35vh;
+	margin: 19vh auto;
+	text-align: center;
+}
+
+#nav {
+	margin-top: 3vh;
+	display: inline-table;
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 0.025em;
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline;
+    float: left;
+    width: 20vmin;
+    height: 8vmin;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-align: center;
+    margin: 2.0vmin;
+    line-height: 8vmin;
+    font-family: Gill Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+	#nav li:hover{
+		border: 2px solid #BBB;
+		background-color: #BBB;
+		opacity: 0.8;
+		cursor: pointer;
+}
+
+#nav a {
+	text-decoration: none;
+	color: white;
+    line-height: 8vmin;
+}
+
+@media screen and (max-width: 480px) {
+	.content {
+		margin-top: 5vh;
+	}
+
+	.nav {
+		margin-left: -10vmin;
+	}
+
+	.nav li {
+		clear: left;
+		width: 80vmin;
+		font-size: 4vmin;
+	}
+
+	.nav a {
+		line-height: 8vmin;
+	}
+}
+
+.logo {
+	cursor: pointer;
+    font-family: Gill Sans, sans-serif;
+    text-align: center;
+    font-weight: 200;
+    font-size: 75px;
+    margin: 10px 10px 30px 10px;
+}
+
+form {
+	margin: 0 auto;
+	max-width: 439px;
+}
+
+.field {
+	width: 100%;
+	height: 27px;
+	background: #efefef;
+	padding: 10px;
+	margin-top: 15px;
+	font-size: 0.9em;
+	color: black;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+#message {
+	height: 200px;
+}
+
+.button {
+	border-color: black;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0);
+	display: inline-block;
+	cursor: pointer;
+	transition-duration: .1s;
+	padding: 10px 14px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+	width: 100px;
+	text-align: center;
+	font-size: 18px;
+    margin-top: 15px;
+    font-family: papyrus fantasy;
+}
+
+.button:hover {
+	opacity: 0.6;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 0.8;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 0.8;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+#byline {
+    animation: fadeInUp .75s ease;
+    -webkit-animation: fadeInUp .75s ease;
+    animation-delay: .25s;
+    -webkit-animation-delay: .25s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+
+.about-col {
+	margin: 50px;
+	display: inline-block;
+}
+
+.profile {
+	width: 150px;
+}
+
+.text {
+	width: 400px;
+}
+
+.brand {
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+}
+
+#articles {
+	padding: 30px;
+}
+
+#articles a {
+	text-decoration: none;
+}
+
+#articles h2 {
+	font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+}
